@@ -9,12 +9,9 @@
     width: 100vw;
     background-color: black;
     display: grid;
-    /* grid-template-columns: 100px 100px 100px; */
-    /* grid-template-columns: repeat(3, 1fr); */
-    /* grid-template-columns: 20% 30% 50%; */
-    /* grid-template-columns: minmax(200px, 1fr) 1fr 1fr; */
-    grid-template-columns: repeat(auto-fit, minmax(100px, auto));
-    /* Só é aplicado no container */
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-rows: 100px 200px 100px; */
+    grid-template-rows: repeat(3, 1fr);
 }
 
 .space {
