@@ -24,17 +24,20 @@
 
 .one {
     background-color: red;
-    /* grid-column-start: 1;
-    grid-column-end: 4; */
-    grid-column: 1 / 4;
 }
 
 .two {
     background-color: blue;
+    /* grid-row-start: 1;
+    grid-row-end: 4; */
+    grid-row: 1 / 4;
 }
 
 .three {
     background-color: green;
+    /* grid-row-start: 2;
+    grid-row-end: 4; */
+    grid-row: 2 / 4;
 }
 
 .four {
